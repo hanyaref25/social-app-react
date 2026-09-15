@@ -167,6 +167,9 @@ export default function Login() {
                 "Login"
               )}
             </button>
+            <a href="/signup" className="text-blue-500 hover:underline">
+              Don't have an account? Sign up
+            </a>
           </form>
         </div>
         <div className="form-hero hidden md:block">
