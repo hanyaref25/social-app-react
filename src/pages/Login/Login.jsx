@@ -167,7 +167,7 @@ export default function Login() {
                 "Login"
               )}
             </button>
-            <Link href="/signup" className="text-blue-500 hover:underline">
+            <Link to="/Signup" className="text-blue-500 hover:underline">
               {"Don't have an account? Sign up"}
             </Link>
           </form>
