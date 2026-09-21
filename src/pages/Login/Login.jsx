@@ -5,7 +5,7 @@ import { toast } from "sonner";
 import axios from "axios";
 import * as yup from "yup";
 import { LoaderCircle } from "lucide-react";
-import { useNavigate , Link } from "react-router";
+import { useNavigate, Link } from "react-router";
 import { useContext } from "react";
 import { UserContext } from "../../context/user.context";
 
@@ -168,7 +168,7 @@ export default function Login() {
               )}
             </button>
             <Link href="/signup" className="text-blue-500 hover:underline">
-              Don't have an account? Sign up
+              {"Don't have an account? Sign up"}
             </Link>
           </form>
         </div>
