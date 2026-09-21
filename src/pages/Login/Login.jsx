@@ -5,10 +5,9 @@ import { toast } from "sonner";
 import axios from "axios";
 import * as yup from "yup";
 import { LoaderCircle } from "lucide-react";
-import { useNavigate } from "react-router";
+import { useNavigate , Link } from "react-router";
 import { useContext } from "react";
 import { UserContext } from "../../context/user.context";
-import { Link } from "react-router-dom";
 
 export default function Login() {
   const { setToken } = useContext(UserContext);
